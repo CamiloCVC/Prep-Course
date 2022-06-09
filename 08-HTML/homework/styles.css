@@ -1,21 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
 h1{
     color: #ff0000;
 }
 img{
-    width: 400px;
+    width: 200px;
 }
 #thirdDiv{
     height: 600px;
     width: 500px;
-    background-color: aqua;
+    background-color: #ff0000;
     padding: 50px;
-    border: #4400ff solid 2px;
+    border: #3700fc solid 2px;
+    text-align: center;
+
+}
+.divClass{
+    padding: 10px;
+    text-align: center;
+    
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
+    color: #ff0000;
 }
 body{
     background-image : url("https://www.w3schools.com/css/img_forest.jpg");
+    background-size: cover;
 }
+#class{
+    color: #3700fc;
     
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
