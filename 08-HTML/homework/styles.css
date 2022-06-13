@@ -8,6 +8,7 @@ h1{
 }
 img{
     width: 200px;
+    height: 250px;
 }
 #thirdDiv{
     height: 600px;
@@ -16,6 +17,7 @@ img{
     padding: 50px;
     border: #3700fc solid 2px;
     text-align: center;
+    
 
 }
 .divClass{
@@ -43,3 +45,4 @@ body{
     align-items: center;
     flex-direction: column;
 }
+

@@ -1,0 +1,104 @@
+
+.izquierda { 
+    display: flex;
+    flex-direction: column;
+    float: left; 
+    background-color: #484D5E;
+    width: 300px; 
+    height: 1140px;
+    margin-left: 10px;
+    padding: 10px;
+     }
+
+.derecha { 
+    float: right; 
+    background-color: rgb(240, 240, 240); 
+    width: 450px; 
+    height: 1100px;
+    margin-right: 15px; 
+    padding: 30px;
+     }
+
+#name { 
+    color: rgb(230, 230, 230); 
+    font-size: 1.9em; 
+    margin-bottom: 2px;
+    }
+
+.texto_izquierda {
+    font-size: 15px;
+    color: rgb(230, 230, 230);      
+}
+
+
+.content { 
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  }
+
+
+ol { 
+    list-style: none; 
+    margin: 20px 0 0 -20px; 
+    color: rgb(230, 230, 230); 
+    font-size: 1em; }
+
+a { 
+    text-decoration: none; 
+    color: rgb(230, 230, 230); }
+
+a:active { color: darkred; }
+
+#margen-top { margin-top: 12px; }
+
+#contenido {  
+    display: flex;
+    justify-content: center}
+
+
+.imgcv {
+    align-self: center;
+    width: 220px;
+    height:220px;
+    border-radius:110px;
+    border:2px  rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    text-align:left;
+    flex-direction: column;
+    padding: 22px;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+h4 {
+    color:#1c1e25;
+    background-color: rgb(169, 217, 247);
+    padding: 10px;
+    height: 20px;
+    opacity: 70%;  
+}
+.pad{
+    padding-left: 2%;
+}
+
+#year {
+    font-size: 14px;
+    font-weight: bold
+    ;
+}
+#title{
+    font-weight: bolder;
+}
+#school{
+    font-size: 16px;
+    opacity: 80%;
+}
+ul {
+    margin-top: 2px;
+}
