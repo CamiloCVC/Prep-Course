@@ -54,3 +54,18 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
+#ejercicioSiete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+#elementoUno{
+    align-self: flex-start;
+}
+#elementoDos{
+    align-self:flex-end;
+}
+#elementoCuatro{
+    align-self: baseline;
+}
